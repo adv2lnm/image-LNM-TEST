@@ -10,6 +10,7 @@
             margin: 20px;
             padding: 20px;
             background-color: #f4f4f4;
+            color: #333;
         }
 
         h1, h2, h3 {
@@ -18,29 +19,6 @@
 
         .blue-text {
             color: blue;
-        }
-
-        .category {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-
-        .product {
-            margin-top: 10px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-            background-color: #fff;
         }
 
         details {
@@ -59,8 +37,7 @@
         }
 
         li {
-            display: inline-block;
-            margin-right: 10px;
+            margin-bottom: 5px;
         }
 
         a {
@@ -71,12 +48,6 @@
         a:hover {
             text-decoration: underline;
         }
-
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            color: #777;
-        }
     </style>
 </head>
 <body>
@@ -85,46 +56,27 @@
 
     <p class="blue-text">Bienvenue dans le référentiel d'images Lamidey Noury Medical, mettant en vedette une variété d'outils médicaux de haute qualité. Explorez les différentes catégories ci-dessous pour découvrir les produits disponibles.</p>
 
+    <h2>Table des Matières</h2>
+
     <details>
-        <summary>Cliquez pour afficher les catégories</summary>
+        <summary>Cliquez pour afficher</summary>
         <ul>
             <li><a href="#adaptateurs">Adaptateurs</a></li>
             <li><a href="#argons">Argons</a></li>
-            <!-- Ajoutez d'autres catégories ici -->
+            <li><a href="#câbles">Câbles</a></li>
+            <li><a href="#electrodes-de-résection">Electrodes de Résection</a></li>
+            <li><a href="#guéridon">Guéridon</a></li>
+            <li><a href="#manches">Manches</a></li>
+            <li><a href="#pédales">Pédales</a></li>
+            <li><a href="#pinces-monopolaires">Pinces Monopolaires</a></li>
+            <li><a href="#pinces-bipolaires">Pinces Bipolaires</a></li>
+            <li><a href="#plaques">Plaques</a></li>
+            <li><a href="#thermoclamp">Thermoclamp</a></li>
+            <li><a href="#thermocut">Thermocut</a></li>
         </ul>
     </details>
 
-    <!-- Catégorie : Adaptateurs -->
-    <div class="category" id="adaptateurs">
-        <h2>Adaptateurs</h2>
-
-        <!-- Produit : Adaptateur V11KA88 -->
-        <div class="product">
-            <h3><span class="blue-text">Adaptateur V11KA88</span></h3>
-            <img src="V11KA88.jpg" alt="Adaptateur V11KA88"/>
-        </div>
-
-        <!-- Ajoutez d'autres produits ici -->
-    </div>
-
-    <!-- Catégorie : Argons -->
-    <div class="category" id="argons">
-        <h2>Argons</h2>
-
-        <!-- Produit : Argon V11A201 -->
-        <div class="product">
-            <h3><span class="blue-text">Argon V11A201</span></h3>
-            <img src="V11A201.jpg" alt="Argon V11A201"/>
-        </div>
-
-        <!-- Ajoutez d'autres produits ici -->
-    </div>
-
-    <!-- Ajoutez d'autres catégories ici -->
-
-    <footer>
-        &copy; 2023 Lamidey Noury Medical. Tous droits réservés.
-    </footer>
+    <!-- Ajoutez le reste de votre contenu ici -->
 
 </body>
 </html>
